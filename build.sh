@@ -1,7 +1,7 @@
 #!/bin/sh
 
 MODULE=helloworld
-VERSION=0.8.1
+VERSION=0.8.2
 TITLE="ShadowSocksR Plus"
 DESCRIPTION="ShadowSocksR Plus"
 HOME_URL=Module_helloworld.asp
@@ -74,7 +74,7 @@ do_backup(){
 	backup_tar_md5=`cat version | sed -n 2p`
 	echo backup VERSION $backup_version
 	cp ${MODULE}.tar.gz $HISTORY_DIR/${MODULE}_$backup_version.tar.gz
-	sed -i "/$backup_version/d" "$HISTORY_DIR"/md5sum.txt
+	# sed -i "/$backup_version/d" "$HISTORY_DIR"/md5sum.txt
 	echo $backup_tar_md5 ${MODULE}_$backup_version.tar.gz >> "$HISTORY_DIR"/md5sum.txt
 }
 

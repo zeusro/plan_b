@@ -47,3 +47,7 @@ e2d9350c380e0e0d6a22e6b87aa6e4b4 helloworld_0.7.6.tar.gz
 050ae551fd39ed7bfd8610b218b955f9 helloworld_0.7.9.tar.gz
 37a3da4eb9f1a8e62874b04884036b6e helloworld_0.8.0.tar.gz
 0997b3f01df2f132d3dd6cc9340fc7e0 helloworld_0.8.1.tar.gz
+a3bbb792ae3d50bc2413cd20ebd8c925 helloworld_0.8.1.tar.gz
+ddc3ea22a160349aa3d0843365b860ca helloworld_0.8.2.tar.gz
+4acc0e9765fb3790b731a04cb35e6f79 helloworld_0.8.2.tar.gz
+6841939d28e36667c873a031a52ede20 helloworld_0.8.2.tar.gz
